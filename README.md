@@ -69,3 +69,15 @@ Login
     -> Attendance History
     -> Profile
     -> Employee Management (Admin)
+
+## Folder Structure
+
+FE -> Reactjs
+BE
+|-> absent (api-gateway) : run on port 3000
+|-> database : database for using system
+|-> attendance system
+	|-> auth-service -> run on port 3001
+	|-> employee-service -> run on port 3002
+	|-> attendance-service -> run on port 3003
+
